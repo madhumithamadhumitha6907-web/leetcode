@@ -11,7 +11,6 @@ class Solution(object):
             w.append(q)
             a+=1
             b+=1
-        w=max(w)
-        return (w+0.0)/k
+        return (max(w)+0.0)/k
 
         
